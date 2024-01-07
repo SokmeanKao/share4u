@@ -11,7 +11,7 @@
 }
 /* variables  */
 :root {
-  --main-color: #ff2c1f;
+  --main-color: rgb(43, 179, 232);
   --text-color: #020307;
   --bg-color: #fff;
 }
@@ -50,7 +50,7 @@ header.shadow .logo {
   align-items: center;
   color: var(--bg-color);
   display: flex;
-  column-gap: 0.5rem;
+  column-gap: 0.6rem;
 }
 
 .bx {
@@ -64,7 +64,7 @@ header.shadow .logo {
   position: relative;
 }
 .navbar a {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--bg-color);
 }
