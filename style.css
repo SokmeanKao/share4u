@@ -90,13 +90,13 @@ header.shadow .logo {
 }
 .btn {
   padding: 0.3rem 1.2rem;
-  background: var(--main-color);
+  background: #fa1216;
   color: var(--bg-color);
   font-weight: 400;
   border-radius: 0.5rem;
 }
 .btn:hover {
-  background: #fa1216;
+  background: var(--main-color);
 }
 
 /* Home  */
