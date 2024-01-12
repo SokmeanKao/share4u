@@ -52,6 +52,10 @@ header.shadow .logo {
   display: flex;
   column-gap: 0.6rem;
 }
+.logo img{
+  width: 30px;
+  height: 30px;
+}
 
 .bx {
   color: var(--main-color);
