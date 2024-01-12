@@ -303,11 +303,11 @@ section {
   color: var(--bg-color);
 }
 
-.movieplay{
+/* .movieplay{
   margin: 40px 80px 0 80px;
   padding: 50% 0 0 0;
   position: relative;
-}
+} */
 
 /* responsive  */
 @media (max-width: 1080px) {
