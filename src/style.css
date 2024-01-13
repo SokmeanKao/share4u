@@ -45,7 +45,7 @@ header.shadow .logo {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   align-items: center;
   color: var(--bg-color);
@@ -68,7 +68,7 @@ header.shadow .logo {
   position: relative;
 }
 .navbar a {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--bg-color);
 }
@@ -87,13 +87,13 @@ header.shadow .logo {
   width: 100%;
 }
 #menu-icon {
-  font-size: 24px;
+  font-size: 25px;
   cursor: pointer;
   z-index: 1000001;
   display: none;
 }
 .btn {
-  padding: 0.3rem 1.2rem;
+  padding: 0.2rem 1.2rem;
   background: #fa1216;
   color: var(--bg-color);
   font-weight: 400;
@@ -304,8 +304,7 @@ section {
 }
 
 .movieplay{
-  margin-top: 40px;
-  padding: 50% 0 0 0;
+  margin: 10rem 4rem 1rem;
   position: relative;
 }
 
@@ -376,6 +375,10 @@ section {
   }
   .movies-container {
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    margin: 0 1rem 0;
+  }
+  .movieplay{
+    margin: 10rem 1rem 1rem;
   }
 }
 @media (max-width: 472px) {
