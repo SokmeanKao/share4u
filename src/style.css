@@ -175,8 +175,7 @@ section {
 /* movies  */
 .heading {
   max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 1rem 0.5rem;
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -375,7 +374,7 @@ section {
   }
   .movies-container {
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
-    margin: 0 1rem 0;
+    margin: 0.5rem 1rem 0;
   }
   .movieplay{
     margin: 10rem 1rem 1rem;
