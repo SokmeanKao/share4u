@@ -421,4 +421,7 @@ section {
   .movies-container {
     grid-template-columns: repeat(auto-fit, minmax(140px, auto));
   }
+  .movieplay{
+    margin: 10rem 1rem 15rem;
+  }
 }
